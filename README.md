@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Zero Q is looking for a Frontend Developer to include on their team. In that project, I show how is my coding developing this web prototype for Zero Q Frontend Challenge. This is a very simple and reduced version of Zero Q real-time dashboard (https://zeroq.cl/command/).
+Zero Q is looking for a Frontend Developer to include on their team. In that project, I show how are my coding skills developing this web prototype for Zero Q Frontend Challenge. This is a very simple and reduced version of Zero Q real-time dashboard (https://zeroq.cl/command/).
 
 ## Mockup of how the prototype should look
 

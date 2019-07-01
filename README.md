@@ -2,7 +2,11 @@
 
 ## Introduction
 
-Zero Q is looking for a Frontend Developer to include on their team. In that project I show how is my coding developing this web prototype for Command Center for Zero Q Frontend Challenge.
+Zero Q is looking for a Frontend Developer to include on their team. In that project, I show how is my coding developing this web prototype for Zero Q Frontend Challenge. This is a very simple and reduced version of Zero Q real-time dashboard (https://zeroq.cl/command/).
+
+## Mockup of how the prototype should look
+
+![Prototipo](index.png "prototipo")
 
 ## Requirements
 - Install npm
@@ -33,4 +37,3 @@ In the project directory, you can run:
 - This app was developed on React
 
 - TDD specification: React-scripts test and Enzyme.
-

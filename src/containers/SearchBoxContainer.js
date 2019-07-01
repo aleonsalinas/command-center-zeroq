@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import setFilter from '../actions'
 import SearchBox from '../components/SearchBar/SearchBox'
 
+//SearchBoxContainer connects SearchBox representational Component with store
 class SearchBoxContainer extends Component {
     constructor(props){
         super(props);

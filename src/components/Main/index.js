@@ -17,8 +17,6 @@ class Main extends Component{
         };
     }
     
-  
-
     getData = offices => {
         store.subscribe(() => {
             ;

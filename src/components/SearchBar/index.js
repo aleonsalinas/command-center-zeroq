@@ -3,7 +3,7 @@ import './styles.css';
 import Grid from '@material-ui/core/Grid';
 import SearchBoxContainer from '../../containers/SearchBoxContainer';
 
-const SearchBar = ({setFilter,store}) =>{
+const SearchBar = ({setFilter}) =>{
     return(
         <div className="container-search-bar">
             <div className="search-bar">

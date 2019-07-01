@@ -9,8 +9,7 @@ class SearchBox extends Component {
         super(props); 
     }
 
-    doSomething = function (e) {
-      alert('it works!');
+    dontReload = function (e) {
       e.preventDefault();
       return true;
     }
@@ -19,7 +18,7 @@ class SearchBox extends Component {
       this.setState({
         query: event.target.value
       });
-  
+      // Use the store two communicate with other components and sets filterName value 
       this.props.setFilter(event.target.value);
     }
    
@@ -30,7 +29,7 @@ class SearchBox extends Component {
                 <input
                 type='text'
                 size='45'
-                onSubmit = {this.doSomething}
+                onSubmit = {this.dontReload}
                 onChange={this.handleInputChange.bind(this)}
                 placeholder='Buscar sucursal'
                 />

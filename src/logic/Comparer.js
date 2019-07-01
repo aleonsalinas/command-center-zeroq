@@ -52,10 +52,13 @@ function haveSimilarity(str1, str2){
     debugger;
     return boolReturn;
 }
+// If have exact coincidences
 function haveIndexOf(str1, str2)
 {
     return (str1.toLowerCase().indexOf(str2.toLowerCase())!=-1);
 }
+
+// If have similar coincidences
 function similarCoincidences(list, lookingFor) 
 { 
     var sameChars =  list.filter(item => haveSimilarity(item.name.toLowerCase().replace(/ /g,''),
@@ -68,6 +71,7 @@ function similarCoincidences(list, lookingFor)
     
 } 
 
+// First look for exact coincidences then for similar coincidences
 function filterLookginFor(list, lookingFor,isReady)
 {
     if(!isReady)

@@ -4,7 +4,7 @@ import Waiting from './Waiting'
 import Elapsed from './Elapsed'
 import './styles.css';
 
- 
+// Office is the representational component of one office card
 const Office = ({office}) =>(
 
     <div className={`office ${office.class}`}>

@@ -1,3 +1,4 @@
+// convert given minutes to HH:mm:ss format
 const minutesToTime = minutes =>{
     var m =  Math.trunc(minutes%60);
     var h = Math.trunc(minutes/60);
